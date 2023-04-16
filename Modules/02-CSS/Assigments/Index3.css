@@ -1,0 +1,40 @@
+  .menu {    
+    position: relative;
+    display: inline-block;
+    background-color: lightpink;
+    font-size: larger;
+  }
+body{
+  background-color: rgb(246, 241, 196);
+}
+  .submenu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    min: width 100px;
+    padding: 5px;
+    background-color: lightcoral;
+    padding: 10px;
+    box-shadow: 0px 20px 20px 0px rgba(red,0,0,0.5);
+  }
+
+  .button{
+    cursor: pointer;
+  }
+
+  .button:hover .submenu {
+    display: block;
+  }
+
+  .submenu-item{
+    cursor: pointer;
+  }
+
+  .submenu-item:hover{
+    color: white;
+    background-color: blueviolet;
+  }
+
+  .menu:hover .submenu {    
+    display: block;
+  }
