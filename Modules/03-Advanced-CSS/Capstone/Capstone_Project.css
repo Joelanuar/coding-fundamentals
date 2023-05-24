@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(31, 89, 71, 0.428);
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .heading-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .contact-card {
+    display: flex;
+    background-color: rgba(31, 89, 71, 0.427);
+  }
+
+  .social-icon > img{
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .logo >img{
+    height: 4rem;
+    width: 4rem;
+  }
